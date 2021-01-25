@@ -1,0 +1,107 @@
+/* General Settings */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  background-size:cover;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Background */
+body {
+  background-image: url(background.jpg)
+}
+
+/* Frame Transparent*/
+body>div {
+  background: rgba(0, 0, 0, 0.4);
+  margin: 30px 270px auto 270px;
+  border-radius: 20px;
+}
+
+/* Logo and Title */
+img {
+  width: 170px;
+  height: auto;
+  margin: 70px auto auto auto;
+  text-align: center;
+}
+
+#title {
+  color: Lime;
+  text-align: center;
+  margin: 7px auto 4px auto;
+}
+
+/* Input */
+.row{
+  background-color: Lime;
+  margin: auto 90px auto 90px;
+}
+
+.row1 {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+  margin: 9px auto 9px auto;
+}
+
+.row2 {
+  display: inline-block;
+  width: 22%;
+}
+
+.row3 {
+  display: inline-block;
+  width: 32%;
+}
+
+/* List */
+.line {
+  margin: 20px 90px 20px 90px;
+}
+
+.line1 {
+  display: inline-block;
+}
+
+.line2{
+  display: inline-block;
+  color: white;
+}
+
+.line3 {
+  color: white;
+}
+
+.line4 {
+  color: white;
+}
+
+#rectangle1 {
+  background-color: Gold;
+  color: Gold;
+  border-radius: 4px;
+  width: 300px;
+  height: 25px;
+}
+
+#rectangle2 {
+  background-color: LimeGreen;
+  color: LimeGreen;
+  border-radius: 4px;
+  width: 400px;
+  height: 25px;
+}
+
+#rectangle3 {
+  background-color: PaleVioletRed;
+  color: PaleVioletRed;
+  border-radius: 4px;
+  width: 130px;
+  height: 25px;
+}
+
+#ghost {
+  margin: auto auto auto auto;
+  color: rgba(0, 0, 0, 0)
+}
